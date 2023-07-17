@@ -1,0 +1,81 @@
+/* ========== APP specific css ============*/
+.crm-theme {
+
+}
+
+.dui-tabs {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    overflow-y: hidden;
+}
+
+.crm-header-tabs {
+    --dui-tab-item-border-radius: 9999px;
+}
+
+.crm-header-tabs .dui-tab-anchor:before {
+    content: none;
+}
+
+.crm-header-tabs .dui-active .dui-tab-anchor {
+    background-color: var(--dui-accent-d-2);
+    color: var(--dui-accent-text-color);
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--dui-clr-dominant-d-1) var(--dui-clr-dominant-d-2);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--dui-clr-dominant-d-1);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--dui-clr-dominant-d-2);
+    border-radius: 20px;
+    border: 3px solid var(--dui-clr-dominant-d-1);
+}
+
+.crm-list .dui-list-group .dui-list-group-item:first-child,
+.crm-list .dui-list-group-item + .dui-list-group-item {
+    --dui-list-group-item-border-width: 0 0 0 0;
+}
+
+.dui-list-group-item:hover {
+    --dui-list-group-item-hover-background: var(--dui-dominant-d-4);
+    --dui-list-group-item-selected-background: var(--dui-accent-l-3);
+    color: var(--dui-list-group-item-hover-color);
+}
+
+.dui-active .dui-tab-anchor {
+    background-color: var(--dui-accent-l-1);
+    color: var(--dui-clr-white);
+}
+
+.dui-color-picker {
+    --dui-menu-hover-before-content: none;
+    --dui-menu-item-selected-hover-bg-color: var(--dui-clr-dominant);
+    --dui-menu-item-hover-bg-color: var(--dui-clr-dominant);
+    --dui-menu-item-selected-bg-color: var(--dui-clr-dominant);
+    --dui-menu-item-selected-color: var(--dui-color);
+    color: var(--dui-color);
+}
+
+.dui-color-picker-color {
+    width: var(--dui-spc-8);
+    height: var(--dui-spc-8);
+    border: 1px solid var(--dui-clr-dominant-l-1);
+}
+
+.dui-color-picker-color:hover {
+    transform: scale(1.1);
+    transform-origin: var(--dui-spc-2);
+}
+
