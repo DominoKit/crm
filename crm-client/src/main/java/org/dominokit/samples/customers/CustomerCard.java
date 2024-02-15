@@ -6,6 +6,7 @@ import org.dominokit.domino.ui.icons.lib.Icons;
 import org.dominokit.domino.ui.infoboxes.InfoBox;
 import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.samples.Customer;
+import static org.dominokit.domino.ui.style.DominoCss.*;
 
 public class CustomerCard extends BaseDominoElement<HTMLDivElement, CustomerCard> {
 

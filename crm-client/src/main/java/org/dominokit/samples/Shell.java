@@ -18,7 +18,7 @@ import org.dominokit.samples.notes.NotesPage;
 import org.dominokit.samples.pipelines.PipelinesPage;
 
 import static elemental2.dom.DomGlobal.window;
-
+import static org.dominokit.domino.ui.style.DominoCss.*;
 public class Shell extends BaseDominoElement<HTMLDivElement, Shell> {
 
     public static final Shell instance = Shell.create();

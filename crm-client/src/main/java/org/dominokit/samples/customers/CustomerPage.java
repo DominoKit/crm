@@ -10,6 +10,10 @@ import org.dominokit.domino.ui.utils.PostfixAddOn;
 import org.dominokit.domino.ui.utils.PrefixAddOn;
 import org.dominokit.samples.CrmPage;
 import org.dominokit.samples.Customer;
+import static org.dominokit.domino.ui.style.DominoCss.*;
+import static org.dominokit.domino.ui.utils.Domino.div;
+import static org.dominokit.domino.ui.utils.Domino.img;
+import static org.dominokit.domino.ui.utils.Domino.span;
 
 public class CustomerPage extends CrmPage<CustomerPage> {
 

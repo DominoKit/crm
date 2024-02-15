@@ -15,6 +15,9 @@ import org.dominokit.samples.Customer;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import static org.dominokit.domino.ui.style.DominoCss.*;
+import static org.dominokit.domino.ui.utils.Domino.div;
+import static org.dominokit.domino.ui.utils.Domino.text;
 
 public class CustomersList extends BaseDominoElement<HTMLDivElement, CustomersList> {
 

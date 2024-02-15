@@ -8,6 +8,9 @@ import org.dominokit.domino.ui.utils.BaseDominoElement;
 
 import java.util.ArrayList;
 import java.util.List;
+import static org.dominokit.domino.ui.style.DominoCss.*;
+import static org.dominokit.domino.ui.utils.Domino.div;
+import static org.dominokit.domino.ui.utils.Domino.span;
 
 public class PrioritySelector extends BaseDominoElement<HTMLDivElement, PrioritySelector> {
 

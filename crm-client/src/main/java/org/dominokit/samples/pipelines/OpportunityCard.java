@@ -8,6 +8,9 @@ import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.domino.ui.utils.PostfixAddOn;
 import org.dominokit.samples.Opportunity;
 import org.dominokit.samples.RatingComponent;
+import static org.dominokit.domino.ui.style.DominoCss.*;
+import static org.dominokit.domino.ui.utils.Domino.div;
+import static org.dominokit.domino.ui.utils.Domino.span;
 
 public class OpportunityCard extends BaseDominoElement<HTMLDivElement, OpportunityCard> {
 

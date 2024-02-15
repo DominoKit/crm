@@ -1,5 +1,7 @@
 package org.dominokit.samples.pipelines;
 
+import static org.dominokit.domino.ui.style.DominoCss.*;
+
 import elemental2.dom.Element;
 import elemental2.dom.HTMLDivElement;
 import org.dominokit.domino.ui.badges.Badge;

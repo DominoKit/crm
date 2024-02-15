@@ -1,5 +1,6 @@
 package org.dominokit.samples.pipelines;
 
+import static org.dominokit.domino.ui.style.DominoCss.*;
 import org.dominokit.domino.ui.button.Button;
 import org.dominokit.domino.ui.button.LinkButton;
 import org.dominokit.domino.ui.dialogs.AbstractDialog;

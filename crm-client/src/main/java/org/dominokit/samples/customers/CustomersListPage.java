@@ -8,6 +8,7 @@ import org.dominokit.domino.ui.utils.PostfixAddOn;
 import org.dominokit.domino.ui.utils.PrefixAddOn;
 import org.dominokit.samples.CrmPage;
 import org.dominokit.samples.pipelines.CreateOpportunityDialog;
+import static org.dominokit.domino.ui.style.DominoCss.*;
 
 public class CustomersListPage extends CrmPage<CustomersListPage> {
 

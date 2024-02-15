@@ -6,6 +6,7 @@ import org.dominokit.domino.ui.grid.AutoGrid;
 import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.samples.Customer;
 import org.dominokit.samples.Shell;
+import static org.dominokit.domino.ui.style.DominoCss.*;
 
 public class CustomersBoard extends BaseDominoElement<HTMLDivElement, CustomersBoard> {
 

@@ -14,6 +14,8 @@ import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.domino.ui.utils.ChildHandler;
 import org.dominokit.domino.ui.utils.PostfixAddOn;
 import org.dominokit.domino.ui.utils.PrefixAddOn;
+import static org.dominokit.domino.ui.style.DominoCss.*;
+import static org.dominokit.domino.ui.utils.Domino.div;
 
 public abstract class CrmPage<T extends CrmPage<T>> extends BaseDominoElement<HTMLDivElement, T> {
 
