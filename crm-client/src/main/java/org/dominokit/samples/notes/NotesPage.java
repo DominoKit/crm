@@ -4,12 +4,9 @@ import org.dominokit.domino.ui.button.Button;
 import org.dominokit.domino.ui.button.LinkButton;
 import org.dominokit.domino.ui.icons.lib.Icons;
 import org.dominokit.domino.ui.richtext.RichTextEditor;
-import org.dominokit.domino.ui.style.Color;
 import org.dominokit.domino.ui.utils.PostfixAddOn;
 import org.dominokit.domino.ui.utils.PrefixAddOn;
 import org.dominokit.samples.CrmPage;
-import org.dominokit.samples.Opportunity;
-import org.dominokit.samples.pipelines.*;
 import static org.dominokit.domino.ui.style.DominoCss.*;
 
 public class NotesPage extends CrmPage<NotesPage> {

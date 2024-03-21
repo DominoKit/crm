@@ -1,5 +1,6 @@
 package org.dominokit.samples.customers;
 
+import static org.dominokit.domino.ui.utils.Domino.*;
 import org.dominokit.domino.ui.badges.Badge;
 import org.dominokit.domino.ui.button.Button;
 import org.dominokit.domino.ui.icons.lib.Icons;

@@ -4,6 +4,7 @@ import org.dominokit.domino.ui.lists.ListItem;
 import org.dominokit.samples.pipelines.OpportunityCard;
 import org.dominokit.samples.pipelines.PipelineColumn;
 import org.dominokit.samples.pipelines.PipelineList;
+import static org.dominokit.domino.ui.utils.Domino.*;
 
 public class DndState<S,P,D> {
 

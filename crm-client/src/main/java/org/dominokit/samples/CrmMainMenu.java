@@ -8,6 +8,7 @@ import org.dominokit.domino.ui.tree.TreeItem;
 import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.domino.ui.utils.ChildHandler;
 import org.dominokit.samples.notes.NotesPage;
+import static org.dominokit.domino.ui.utils.Domino.*;
 
 public class CrmMainMenu extends BaseDominoElement<HTMLDivElement, CrmMainMenu> {
 

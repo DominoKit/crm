@@ -16,6 +16,5 @@ public class App implements EntryPoint, ElementsFactory, DominoCss {
     public void onModuleLoad() {
         DominoThemeManager.INSTANCE.applyUserThemes();
         body().appendChild(Shell.instance);
-
     }
 }

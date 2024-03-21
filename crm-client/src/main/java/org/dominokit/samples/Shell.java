@@ -14,7 +14,6 @@ import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.domino.ui.utils.ChildHandler;
 import org.dominokit.domino.ui.utils.PostfixAddOn;
 import org.dominokit.samples.customers.CustomersListPage;
-import org.dominokit.samples.notes.NotesPage;
 import org.dominokit.samples.pipelines.PipelinesPage;
 
 import static elemental2.dom.DomGlobal.window;

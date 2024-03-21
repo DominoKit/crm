@@ -1,5 +1,6 @@
 package org.dominokit.samples.pipelines;
 
+import static org.dominokit.domino.ui.utils.Domino.*;
 import elemental2.dom.HTMLDivElement;
 import org.dominokit.domino.ui.badges.Badge;
 import org.dominokit.domino.ui.dnd.DragSource;
